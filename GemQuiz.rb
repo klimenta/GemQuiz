@@ -1,5 +1,3 @@
-
-
 require 'tk'
 require 'tkextlib/tile'
 
