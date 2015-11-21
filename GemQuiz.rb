@@ -21,8 +21,6 @@ Tk::Tile::Style.configure('Correct.TLabel', {"font" => "helvetica 14", "foregrou
 Tk::Tile::Style.configure('Answer.TLabel', {"font" => "helvetica 14", "foreground" => "blue"})
 Tk::Tile::Style.configure('Stats.TLabel', {"font" => "helvetica 10", "foreground" => "black"})
 
-
-$questionLinesArray = Array.new
 $answerAArray = Array.new
 $answerBArray = Array.new
 $answerCArray = Array.new
@@ -34,6 +32,7 @@ $questionOnScreen = 0
 $totalQuestions = 1
 
 def openFile
+  # This array holds the whole quiz file
   arrQuizContents = Array.new
   filename = Tk::getOpenFile
   begin
@@ -52,9 +51,10 @@ def openFile
 end
 
 def ParseFile(arr)
+  questionLinesArray = Array.new
   arr.each do |line|
     if line.match(/^[Qq][0-9]/)
-      $questionLinesArray.push line
+      questionLinesArray.push line
     elsif line.match(/^[Aa]\./)
       $answerAArray.push line
     elsif line.match(/^[Bb]\./)
@@ -69,7 +69,7 @@ def ParseFile(arr)
       $questionsArray.push line
     end # end-if
   end # each-do
-  $totalQuestions = $questionLinesArray.length
+  $totalQuestions = questionLinesArray.length
 end
 
 def StartQuiz()
