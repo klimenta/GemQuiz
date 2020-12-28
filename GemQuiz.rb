@@ -20,7 +20,8 @@
 #######################################################################################################################
 #### This example will create a quiz with 4 radio buttons. If the answer line was Answer: B,C                      ####
 #### then the program will show four check buttons instead.                                                        ####
-#### NOTE: The question in this example is two lines. In the file, it should be one continuous line                ####                                                      ####
+#### NOTE: The question in this example is two lines. In the file, it should be one continuous line     
+#### NOTE: Do not leave any blank lines
 #######################################################################################################################
 
 require 'tk'

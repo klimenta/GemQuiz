@@ -1,0 +1,35 @@
+Q1
+What kind of software development projects can be executed by Scrum Project Management Framework?
+A. Complete software packages
+B. Customer projects
+C. Sub-systems, components or parts of bigger systems
+D. All kinds of software development projects
+Answer: D
+Q2
+What does NOT belong to cornerstones of the agile manifesto?
+A. Individuals and interactions over processes and tools
+B. Working software over comprehensive documentation
+C. Processes over people
+D. Customer collaboration over contract negotiation
+Answer: C
+Q3
+Where are the customer requirements stored?
+A. In the Product Backlog
+B. In the Sprint Backlog
+C. In a database
+D. In a Scrum Product Requirement Specification
+Answer: A
+Q4
+What is important in all Scrum projects?
+A. Self-organization
+B. Clear hierarchies in the company
+C. Communication
+D. Continuous improvement 
+Answer: A, C, D
+Q5
+Which concept is NOT defined in the Scrum Framework?
+A. Scrum Master
+B. Project Manager
+C. Scrum Product Owner
+D. Daily Scrum
+Answer: B
